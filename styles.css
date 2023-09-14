@@ -1,58 +1,51 @@
-/* Reset some default styles */
+
 body, h1, h2, p {
     margin: 0;
     padding: 0;
 }
 
-/* Style the hero section */
 .hero-section {
     position: relative;
     height: 500px;
 }
 
-/* Style the background image */
 .bg-image {
     width: 100%;
-    height: 100%;
+    height: 500px; 
     object-fit: cover;
 }
 
-/* Style the product cards container */
 .product-cards {
     position: absolute;
     top: 250px;
     left: 50%;
-    transform: translate(-50%);
+    transform: translateX(-50%);
     display: flex;
+    justify-content: center; 
     z-index: 1;
 }
 
-/* Style individual product cards */
 .product-card {
     width: 300px;
-    height: 300px;
-    background-color: white;
+    height: 400px;   background-color: white;
     margin-right: 20px;
     text-align: center;
-    padding-top: 50px;
+    padding: 20px; 
     z-index: 2;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
-/* Style the product images */
 .product-card img {
     width: 100px;
     height: 150px;
 }
 
-/* Style the product titles */
 .product-card h3 {
     font-size: 24px;
     font-weight: bold;
     margin-top: 20px;
 }
 
-/* Style the product descriptions */
 .product-card p {
     margin-top: 20px;
     font-size: 16px;
